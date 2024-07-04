@@ -1,0 +1,41 @@
+{
+    "name": "pipe-merge",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "homepage": "https://github.com/mattriley/node-pipe-merge",
+    "repository": "github:mattriley/node-pipe-merge",
+    "author": {
+        "name": "Matt Riley",
+        "email": "m@ttriley.dev",
+        "url": "https://github.com/mattriley"
+    },
+    "bugs": {
+        "url": "https://github.com/mattriley/node-pipe-merge/issues",
+        "email": "m@ttriley.dev"
+    },
+    "main": "./index.js",
+    "scripts": {
+        "cov": "npx task cov",
+        "deploy": "npx task deploy",
+        "lint": "npx task lint",
+        "pre": "npx task pre",
+        "setup": "npm i && npx task setup",
+        "start": "npx task start",
+        "test": "npx task test"
+    },
+    "dependencies": {
+        "lodash.isfunction": "^3.0.9",
+        "lodash.merge": "^4.6.2"
+    },
+    "devDependencies": {
+        "cloc": "^1.98.0-cloc",
+        "doctoc": "^2.2.1",
+        "ejs": "^3.1.9",
+        "eslint": "^8.50.0",
+        "eslint-plugin-import": "^2.28.1",
+        "husky": "^8.0.3",
+        "npm-check-updates": "^16.14.4",
+        "task-library": "^0.274.0"
+    }
+}
