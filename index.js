@@ -4,5 +4,6 @@ module.exports = {
     isPlainFunction: require('./src/is-plain-function'),
     pipeAssignWhile: require('./src/pipe-assign-while'),
     pipeAssign: require('./src/pipe-assign'),
+    pipeAsync: require('./src/pipe-async'),
     pipeMerge: require('./src/pipe-merge')
 };
